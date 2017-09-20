@@ -13,5 +13,5 @@ interface Filter
      * @param array $fields
      * @return array the new fields
      */
-    public function applyFilter(array $fields);
+    public function applyFilter(array $fields):array;
 }
