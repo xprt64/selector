@@ -9,7 +9,9 @@
             "email": "gica.galbenu@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "php": "^8.5"
+    },
     "autoload": {
         "psr-4": {
             "Gica\\Selector\\": "src/Gica/Selector/"

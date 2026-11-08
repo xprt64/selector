@@ -14,7 +14,7 @@ interface Filtrable
      * @param string|null $filterId
      * @return static
      */
-    public function addFilter(Filter $filter, string $filterId = null);
+    public function addFilter(Filter $filter, ?string $filterId = null);
 
     /**
      * @immutable
